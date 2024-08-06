@@ -98,10 +98,10 @@ from email.mime.multipart import MIMEMultipart
 import os
 
 # ENTER YOUR CREDENTIALS
-uid = os.getenv("YOUR_UID")
-password = os.getenv("RSMS_PASSWORD")
-sem = os.getenv("SEMESTER")
-branch = os.getenv("BRANCH")
+uid = os.getenv("U2103157")
+password = os.getenv("210364")
+sem = os.getenv("S7")
+branch = os.getenv("CS-G")
 
 if uid == "":
     uid = str(input("Enter Uid: "))
